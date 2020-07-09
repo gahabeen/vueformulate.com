@@ -218,6 +218,7 @@ Property        | Description
 `limit`         | For a `group` type, this is the is the maximum number of repeatable items allowed (default is `Infinity`).
 `minimum`       | For a `group` type, this is the minimum number of repeatable items allowed (default is `0`).
 `model`         | The value of the current field, bound to a setter.
+`modelHook`     | A function to update the model value (ex, for text mask or number integer)
 `name`          | The name of the field, if none is set, it auto-generates a name.
 `options`       | The `options` prop converted to an array (when applicable).
 `performValidation` | Function that will run validation. This is executed on every input automatically.
